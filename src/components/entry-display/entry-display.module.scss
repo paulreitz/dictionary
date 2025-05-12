@@ -1,0 +1,22 @@
+.container {
+  padding: 16px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wordContainer {
+  margin-bottom: 24px;
+}
+
+.meaningsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 12px;
+  }
+}
